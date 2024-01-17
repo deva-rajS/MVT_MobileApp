@@ -1,0 +1,14 @@
+com/mvt/ReactNativeFlipper.java
+ com.mvt.ReactNativeFlipper
+ com.mvt.ReactNativeFlipper$1
+ com.mvt.ReactNativeFlipper$2
+ com.mvt.ReactNativeFlipper$2$1
+com/mvt/MainApplication.java
+ com.mvtplay.MainApplication
+ com.mvtplay.MainApplication$1
+com/mvtplay/BuildConfig.java
+ com.mvtplay.BuildConfig
+com/mvt/MainActivity.java
+ com.mvtplay.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mvtplay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:5:5-77
+13-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:5:22-74
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:6:5-71
+14-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:7:5-81
+15-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:8:5-80
+16-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:8:22-77
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Dell\.gradle\caches\transforms-3\96dd28ade2f4a4b132c21f7251eeb820\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Dell\.gradle\caches\transforms-3\96dd28ade2f4a4b132c21f7251eeb820\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+18-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-73
+18-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-70
+19    <!--
+20         Required to keep CPU alive while downloading files
+21        (NOT to keep screen awake)
+22    -->
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-68
+23-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-65
+24    <!--
+25         Required to poll the state of the network connection
+26        and respond to changes
+27    -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-79
+28-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\ab8e1d6109514228ae72d662862ffa0a\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+29-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\Dell\.gradle\caches\transforms-3\ab8e1d6109514228ae72d662862ffa0a\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\Dell\.gradle\caches\transforms-3\9a8015cf29618d0cb7e7cede2fc2fc75\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+30-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\Dell\.gradle\caches\transforms-3\9a8015cf29618d0cb7e7cede2fc2fc75\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+31
+32    <application
+32-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:10:5-28:19
+33        android:name="com.mvtplay.MainApplication"
+33-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:11:7-38
+34        android:allowBackup="false"
+34-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:15:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-3\99955db1cf3b50754de69fd67e851d50\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:13:7-41
+39        android:label="@string/app_name"
+39-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:12:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:14:7-52
+41        android:theme="@style/AppTheme"
+41-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:16:7-38
+42        android:usesCleartextTraffic="true" >
+42-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\debug\AndroidManifest.xml:8:9-44
+43        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+43-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\debug\AndroidManifest.xml:11:9-86
+43-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\debug\AndroidManifest.xml:11:19-83
+44        <activity
+44-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:17:7-27:18
+45            android:name="com.mvtplay.MainActivity"
+45-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:18:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+46-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:20:9-86
+47            android:label="@string/app_name"
+47-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:19:9-41
+48            android:launchMode="singleTask"
+48-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:21:9-40
+49            android:windowSoftInputMode="adjustResize" >
+49-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:22:9-51
+50            <intent-filter>
+50-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:23:9-26:25
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:24:13-65
+51-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:24:21-62
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:25:13-73
+53-->D:\RedfoxApp\file\MVT_MobileApp\android\app\src\main\AndroidManifest.xml:25:23-70
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-42:20
+58            android:name="com.RNFetchBlob.Utils.FileProvider"
+58-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-62
+59            android:authorities="com.mvtplay.provider"
+59-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-60
+60            android:exported="false"
+60-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+61            android:grantUriPermissions="true" >
+61-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+62            <meta-data
+62-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-41:58
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-67
+64                android:resource="@xml/provider_paths" />
+64-->[:rn-fetch-blob] D:\RedfoxApp\file\MVT_MobileApp\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-55
+65        </provider>
+66
+67        <service
+67-->[:react-native-music-control] D:\RedfoxApp\file\MVT_MobileApp\node_modules\react-native-music-control\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:43
+68            android:name="com.tanguyantoine.react.MusicControlNotification$NotificationService"
+68-->[:react-native-music-control] D:\RedfoxApp\file\MVT_MobileApp\node_modules\react-native-music-control\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-96
+69            android:stopWithTask="true" />
+69-->[:react-native-music-control] D:\RedfoxApp\file\MVT_MobileApp\node_modules\react-native-music-control\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-40
+70
+71        <meta-data
+71-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Dell\.gradle\caches\transforms-3\40c4185c4d48e5b74d4eb3b1eac0c7a5\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+72            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+72-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Dell\.gradle\caches\transforms-3\40c4185c4d48e5b74d4eb3b1eac0c7a5\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+73            android:value="GlideModule" />
+73-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\Dell\.gradle\caches\transforms-3\40c4185c4d48e5b74d4eb3b1eac0c7a5\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+74
+75        <activity
+75-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+76            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+76-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+77            android:excludeFromRecents="true"
+77-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+80        <!--
+81            Service handling Google Sign-In user revocation. For apps that do not integrate with
+82            Google Sign-In, this service will never be started.
+83        -->
+84        <service
+84-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+85            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+85-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+86            android:exported="true"
+86-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+87            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+87-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+88            android:visibleToInstantApps="true" />
+88-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Dell\.gradle\caches\transforms-3\63720f3ec40c208f0ad3eb9c5852abac\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\c6fdeff83de194c39bdfe8bffe51f7f2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\c6fdeff83de194c39bdfe8bffe51f7f2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\c6fdeff83de194c39bdfe8bffe51f7f2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-3\c6fdeff83de194c39bdfe8bffe51f7f2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Dell\.gradle\caches\transforms-3\d8248bc00b14b1fd9ec45e60facdc779\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Dell\.gradle\caches\transforms-3\d8248bc00b14b1fd9ec45e60facdc779\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Dell\.gradle\caches\transforms-3\d8248bc00b14b1fd9ec45e60facdc779\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+98    </application>
+99
+100</manifest>

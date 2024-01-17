@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "793355444564",
+    "project_id": "mvt-prod-f32dd",
+    "storage_bucket": "mvt-prod-f32dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793355444564:android:1b6026041f810523e468c1",
+        "android_client_info": {
+          "package_name": "com.mvtplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793355444564-58au2alsob0ujquvhl9kr4fa4fh5q1ft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mvtplay",
+            "certificate_hash": "9832ca6527335087bc70c9b927dbc50a6bd31f19"
+          }
+        },
+        {
+          "client_id": "793355444564-938oro9hcshck7gfq8drit344fm8tket.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mvtplay",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "793355444564-qug0m098g9i1rroi0polcqre5l4h4jd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_7RIxqSv_jTjQ8djroEco9FM8j3ZUK_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793355444564-qug0m098g9i1rroi0polcqre5l4h4jd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
